@@ -39,7 +39,7 @@ namespace DotnetAPI.Controllers
             if (userForRegistration.Password == userForRegistration.PasswordConfirm)
             {
                 string sqlCheckUserExists = @$"
-                SELECT Email FROM TutorialAppSchema.Auth
+                SELECT Email FROM dbo.Auth
                 WHERE Email='{userForRegistration.Email}'";
                 IEnumerable<string> existingUsers = _dapper.LoadData<string>(sqlCheckUserExists);
                 if (existingUsers.Count() == 0)
@@ -52,15 +52,13 @@ namespace DotnetAPI.Controllers
                     if (_authHelper.SetPassword(userForSetPassword))
                     {
                         Console.WriteLine("here is done");
-                        string sqlAddUser = @"EXEC TutorialAppSchema.spUser_Upsert
+                        string sqlAddUser = @"EXEC dbo.spUser_Upsert
                             @FirstName = '" + userForRegistration.FirstName +
                             "', @LastName = '" + userForRegistration.LastName +
                             "',@Email = '" + userForRegistration.Email +
                             "', @Gender = '" + userForRegistration.Gender +
-                            "', @Active = 1" +
-                            ", @JobTitle = '" + userForRegistration.JobTitle +
-                            "', @Department = '" + userForRegistration.Department +
-                            "', @Salary = '" + userForRegistration.Salary + "'";
+                            "', @Active = 1" 
+                          ;
 
 
                         if (_dapper.ExecuteSql(sqlAddUser))
@@ -97,21 +95,19 @@ namespace DotnetAPI.Controllers
         [HttpPost("Login")]
         public IActionResult Login(UserForLoginDto userForLogin)
         {
-            string sqlForHashAndSalt = @$"EXEC TutorialAppSchema.spLoginConfirmation_Get
+            string sqlForHashAndSalt = @$"EXEC dbo.spLoginConfirmation_Get
                 @Email=@EmailParam";
                 DynamicParameters sqlParameters=new();
                 sqlParameters.Add("@EmailParam",userForLogin.Email,DbType.String);
-                // List<SqlParameter> sqlParameters=new();
-                // SqlParameter emailParam=new("@EmailParam",SqlDbType.NVarChar){
-                //     Value=userForLogin.Email
-                // };
-                // sqlParameters.Add(emailParam);
+              
             UserForLoginConfirmationDto userForLoginConfirmation = _dapper
                 .LoadDataSingleWithParameters<UserForLoginConfirmationDto>(sqlForHashAndSalt,sqlParameters);
+            if (userForLoginConfirmation == null)
+            {
+                throw new Exception("Invalid User Or Password");
+            }
             byte[] passwordHash = _authHelper.GetPasswordHash(userForLogin.Password, userForLoginConfirmation.PasswordSalt);
-            //now we want to compare passwordHash and userForLoginConfirmation.passwordhash
-            // it cannot be done because they are object
-            //we should make for loog to compare the bye
+       
 
             for (int i = 0; i < passwordHash.Length; i++)
             {
@@ -122,7 +118,7 @@ namespace DotnetAPI.Controllers
             }
             int userId;
             string userIdSql = @$"
-                SELECT UserId FROM TutorialAppSchema.Users
+                SELECT UserId FROM [AddressBook].[dbo].[User]
                 WHERE Email= '{userForLogin.Email}'
              ";
             userId = _dapper.LoadDataSingle<int>(userIdSql);
@@ -134,8 +130,9 @@ namespace DotnetAPI.Controllers
         [HttpGet("RefreshToken")]
         public string RefreshToken()
         {
+          
             string userIdSql = @$"
-                SELECT UserId FROM TutorialAppSchema.Users
+                SELECT UserId FROM dbo..Users
                 WHERE UserId= " + "'" + User.FindFirst("userId")?.Value + "'";
             int userId = _dapper.LoadDataSingle<int>(userIdSql);
 

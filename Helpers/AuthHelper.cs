@@ -63,7 +63,7 @@ namespace DotnetAPI.Helpers{
                     };
                     byte[] passwordHash = GetPasswordHash(userForSetPassword.Password, passwordSalt);
 
-                    string sqlAddAuth = @" EXEC TutorialAppSchema.spRegistration_Upsert 
+                    string sqlAddAuth = @" EXEC dbo.spRegistration_Upsert 
                             @Email = @EmailParam,
                             @PasswordHash = @PasswordHashParam,
                             @PasswordSalt =@PasswordSaltParam";

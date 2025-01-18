@@ -17,8 +17,7 @@ namespace DotnetAPI.Data
 
         }
         public virtual DbSet<User>? Users { get; set; }
-        public virtual DbSet<UserSalary>? UserSalary { get; set; }
-        public virtual DbSet<UserJobInfo>? UserJobInfo { get; set; }
+   
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             // base.OnConfiguring(options);
@@ -30,11 +29,10 @@ namespace DotnetAPI.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasDefaultSchema("TutorialAppSchema");
-            modelBuilder.Entity<User>().ToTable("Users","TutorialAppSchema").HasKey(user=>user.UserId);
-            modelBuilder.Entity<UserJobInfo>().HasKey(uj=>uj.UserId);
-            modelBuilder.Entity<UserSalary>().HasKey(us=>us.UserId);
-           // modelBuilder.Entity<Computer>().ToTable("Computer","TutorialAppSchema");
+            modelBuilder.HasDefaultSchema("dbo.");
+            modelBuilder.Entity<User>().ToTable("Users","dbo.").HasKey(user=>user.UserId);
+     
+           // modelBuilder.Entity<Computer>().ToTable("Computer","dbo.");
         }
 
 

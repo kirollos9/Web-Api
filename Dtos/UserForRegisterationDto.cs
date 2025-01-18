@@ -11,9 +11,7 @@ namespace DotnetApi.Dtos
         public string LastName { set; get; } = "";
 
         public string Gender { set; get; } = "";
-        public string JobTitle { set; get; } = "";
-        public string Department { set; get; } = "";
-        public decimal Salary { set; get; }
+       
 
 
     }

@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\3Pillars Task\\Web-Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\data\\datacontextef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:data\\datacontextef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\userforregisterationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\userforregisterationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\userforloginconfirmationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\userforloginconfirmationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\controllers\\addressbookentrycontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:controllers\\addressbookentrycontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\controllers\\authcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:controllers\\authcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\sendingaddressentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\sendingaddressentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\models\\addressbookentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:models\\addressbookentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\addressbookentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\addressbookentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|e:\\3pillars task\\web-api\\data\\addressbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A441EE-B3E4-4DA1-B2DF-1D1DF582BEEC}|DotnetApi.csproj|solutionrelative:data\\addressbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 470,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthControllers.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Controllers\\AuthControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthControllers.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Controllers\\AuthControllers.cs",
+              "RelativeToolTip": "Controllers\\AuthControllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:06:37.111Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataContextEF.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Data\\DataContextEF.cs",
+              "RelativeDocumentMoniker": "Data\\DataContextEF.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Data\\DataContextEF.cs",
+              "RelativeToolTip": "Data\\DataContextEF.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T20:06:14.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T20:06:30.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserForRegisterationDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserForRegisterationDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserForRegisterationDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserForRegisterationDto.cs",
+              "RelativeToolTip": "Dtos\\UserForRegisterationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T20:02:37.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserForLoginDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserForLoginDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserForLoginDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserForLoginDto.cs",
+              "RelativeToolTip": "Dtos\\UserForLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T20:02:36.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T19:02:43.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserForLoginConfirmationDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserForLoginConfirmationDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserForLoginConfirmationDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\UserForLoginConfirmationDto.cs",
+              "RelativeToolTip": "Dtos\\UserForLoginConfirmationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T20:02:35.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressBookEntryController .cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Controllers\\AddressBookEntryController .cs",
+              "RelativeDocumentMoniker": "Controllers\\AddressBookEntryController .cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Controllers\\AddressBookEntryController .cs",
+              "RelativeToolTip": "Controllers\\AddressBookEntryController .cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwCYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:24:21.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\JobDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\JobDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\JobDto.cs",
+              "RelativeToolTip": "Dtos\\JobDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:59:52.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SendingAddressEntryDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\SendingAddressEntryDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\SendingAddressEntryDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\SendingAddressEntryDto.cs",
+              "RelativeToolTip": "Dtos\\SendingAddressEntryDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:34:02.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddressBookEntryDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\AddressBookEntryDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\AddressBookEntryDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\AddressBookEntryDto.cs",
+              "RelativeToolTip": "Dtos\\AddressBookEntryDto.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:22:49.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddressBookEntry.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Models\\AddressBookEntry.cs",
+              "RelativeDocumentMoniker": "Models\\AddressBookEntry.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Models\\AddressBookEntry.cs",
+              "RelativeToolTip": "Models\\AddressBookEntry.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwDgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:21:10.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Dtos\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\DepartmentDto.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Dtos\\DepartmentDto.cs",
+              "RelativeToolTip": "Dtos\\DepartmentDto.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T12:13:17.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobController.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Controllers\\JobController.cs",
+              "RelativeToolTip": "Controllers\\JobController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:34:57.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAGAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T12:12:42.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T12:13:32.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Job.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "Models\\Job.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Models\\Job.cs",
+              "RelativeToolTip": "Models\\Job.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T19:00:25.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:05:11.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddressBookContext.cs",
+              "DocumentMoniker": "E:\\3Pillars Task\\Web-Api\\Data\\AddressBookContext.cs",
+              "RelativeDocumentMoniker": "Data\\AddressBookContext.cs",
+              "ToolTip": "E:\\3Pillars Task\\Web-Api\\Data\\AddressBookContext.cs",
+              "RelativeToolTip": "Data\\AddressBookContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwCMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:34:22.397Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
